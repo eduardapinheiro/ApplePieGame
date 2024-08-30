@@ -1,6 +1,6 @@
-disabled_rules: # Regras desativadas
-  - line_length # Desativa a regra de comprimento de linha
-  - trailing_whitespace # Desativa a regra de espaços em branco no final da linha
+#disabled_rules: # Regras desativadas
+#  - line_length # Desativa a regra de comprimento de linha
+#  - trailing_whitespace # Desativa a regra de espaços em branco no final da linha
 
 opt_in_rules: # Regras ativas que não são habilitadas por padrão
   - empty_count # Verifica se o uso de count é feito de forma segura

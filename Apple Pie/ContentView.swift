@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ContentView: View {
     @StateObject private var game = ApplePieGame()
 
@@ -108,5 +106,7 @@ class ApplePieGame: ObservableObject {
         }
     }
 }
+
+
 
 

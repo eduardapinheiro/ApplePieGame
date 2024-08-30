@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5D57FD2C816F8A0076F30B /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = CD5D57FC2C816F8A0076F30B /* .swiftlint.yml */; };
+		CD5D57FE2C816F8A0076F30B /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = CD5D57FC2C816F8A0076F30B /* .swiftlint.yml */; };
 		CDACD79F2C81487600D2BB66 /* Apple_PieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD79E2C81487600D2BB66 /* Apple_PieApp.swift */; };
 		CDACD7A12C81487600D2BB66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD7A02C81487600D2BB66 /* ContentView.swift */; };
 		CDACD7A32C81487C00D2BB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDACD7A22C81487C00D2BB66 /* Assets.xcassets */; };
 		CDACD7A62C81487C00D2BB66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDACD7A52C81487C00D2BB66 /* Preview Assets.xcassets */; };
 		CDACD7C52C81540700D2BB66 /* Apple_PieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD7C42C81540700D2BB66 /* Apple_PieTests.swift */; };
-		CDACD7CC2C81579000D2BB66 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = CDACD7CB2C81579000D2BB66 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD5D57FC2C816F8A0076F30B /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		CDACD79B2C81487600D2BB66 /* Apple Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDACD79E2C81487600D2BB66 /* Apple_PieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieApp.swift; sourceTree = "<group>"; };
 		CDACD7A02C81487600D2BB66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,7 +35,6 @@
 		CDACD7A52C81487C00D2BB66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDACD7C22C81540700D2BB66 /* Apple PieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDACD7C42C81540700D2BB66 /* Apple_PieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieTests.swift; sourceTree = "<group>"; };
-		CDACD7CB2C81579000D2BB66 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		CDACD7922C81487600D2BB66 = {
 			isa = PBXGroup;
 			children = (
+				CD5D57FC2C816F8A0076F30B /* .swiftlint.yml */,
 				CDACD79D2C81487600D2BB66 /* Apple Pie */,
 				CDACD7C32C81540700D2BB66 /* Apple PieTests */,
 				CDACD79C2C81487600D2BB66 /* Products */,
@@ -95,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				CDACD7C42C81540700D2BB66 /* Apple_PieTests.swift */,
-				CDACD7CB2C81579000D2BB66 /* .swiftlint.yml */,
 			);
 			path = "Apple PieTests";
 			sourceTree = "<group>";
@@ -125,6 +126,7 @@
 			buildConfigurationList = CDACD7C82C81540700D2BB66 /* Build configuration list for PBXNativeTarget "Apple PieTests" */;
 			buildPhases = (
 				CDACD7BE2C81540700D2BB66 /* Sources */,
+				CDACD8032C8163C100D2BB66 /* ShellScript */,
 				CDACD7BF2C81540700D2BB66 /* Frameworks */,
 				CDACD7C02C81540700D2BB66 /* Resources */,
 			);
@@ -181,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5D57FD2C816F8A0076F30B /* .swiftlint.yml in Resources */,
 				CDACD7A62C81487C00D2BB66 /* Preview Assets.xcassets in Resources */,
 				CDACD7A32C81487C00D2BB66 /* Assets.xcassets in Resources */,
 			);
@@ -190,11 +193,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDACD7CC2C81579000D2BB66 /* .swiftlint.yml in Resources */,
+				CD5D57FE2C816F8A0076F30B /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDACD8032C8163C100D2BB66 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDACD7972C81487600D2BB66 /* Sources */ = {

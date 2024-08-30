@@ -1,0 +1,20 @@
+disabled_rules: # Regras desativadas
+  - line_length # Desativa a regra de comprimento de linha
+  - trailing_whitespace # Desativa a regra de espaços em branco no final da linha
+
+opt_in_rules: # Regras ativas que não são habilitadas por padrão
+  - empty_count # Verifica se o uso de count é feito de forma segura
+  - force_try # Verifica o uso de force try
+
+included: # Diretórios para incluir na análise
+  - Sources
+  - Tests
+
+excluded: # Diretórios para excluir da análise
+  - Pods
+  - Carthage
+
+line_length: # Configuração da regra de comprimento de linha
+  warning: 120
+  error: 150
+

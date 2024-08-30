@@ -82,7 +82,6 @@
 				8FAFCA10F896DC439CE39C56 /* Pods-Apple PieTests.debug.xcconfig */,
 				5CDAB2129E6644C6CE1F691C /* Pods-Apple PieTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

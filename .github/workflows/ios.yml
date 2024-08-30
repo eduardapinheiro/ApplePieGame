@@ -20,7 +20,7 @@ jobs:
             ruby-version: 2.7
 
     - name: Build and run tests
-      run: xcodebuild -workspace "Apple Pie.xcworkspace" -scheme "Apple Pie" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13' build test
+      run: xcodebuild -workspace "Apple Pie.xcworkspace" -scheme "Apple Pie" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13' build test -allowProvisioningUpdates
 
     - name: Run SwiftLint
       run: swiftlint

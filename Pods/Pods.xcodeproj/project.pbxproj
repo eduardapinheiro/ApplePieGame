@@ -39,12 +39,14 @@
 		5E5CF37691A95AFF0C4C4D7F4F9CF65B /* Pods-Apple PieTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apple PieTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6805D63B3CAE0134AF9315D5C68F940A /* Pods-Apple PieTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apple PieTests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA90DD309351E39F1F397B6E9B4DC55D /* Pods-Apple Pie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apple Pie-umbrella.h"; sourceTree = "<group>"; };
 		B3744297847CB7E1F5B937DDBFF78BCA /* Pods-Apple PieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apple PieTests.release.xcconfig"; sourceTree = "<group>"; };
 		B8BA74AA70419805937B8B0E3EC067E2 /* Pods-Apple Pie-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apple Pie-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD644D316C7418269A0E137A2F866384 /* Pods-Apple Pie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apple Pie.debug.xcconfig"; sourceTree = "<group>"; };
 		C0B4DB9B8CBC9ED43F465E55B22BA0F3 /* Pods-Apple PieTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Apple PieTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD58D32F2C828BB700EC92F6 /* ApplePie.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = ApplePie.mobileprovision; sourceTree = "<group>"; };
+		CD58D3302C828C8000EC92F6 /* ApplePie.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; name = ApplePie.mobileprovision; path = ../../../Downloads/ApplePie.mobileprovision; sourceTree = "<group>"; };
 		F9BA59A3A94CE11379ACB8C0D313B8FE /* Pods-Apple PieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apple PieTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,8 @@
 		7DB00304959B3C37A831F8D901BF3B77 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD58D32F2C828BB700EC92F6 /* ApplePie.mobileprovision */,
+				CD58D3302C828C8000EC92F6 /* ApplePie.mobileprovision */,
 				733791E8A443310102450DCF600EA7B2 /* Pods-Apple Pie */,
 				3660FAA3B63C203118EB76EB5C49068B /* Pods-Apple PieTests */,
 			);

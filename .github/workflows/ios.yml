@@ -37,7 +37,7 @@ jobs:
           xcodebuild -workspace "Apple Pie.xcworkspace" \
           -scheme "Apple Pie" \
           -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' \
-          clean test
+          clean test CODE_SIGNING_ALLOWED=NO
 
       # Passo 5: Exibir resultados de teste
       - name: Show test results

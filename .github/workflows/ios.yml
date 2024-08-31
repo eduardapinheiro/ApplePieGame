@@ -29,6 +29,11 @@ jobs:
         run: |
           pod install
 
+      # Passo 9: Exibir resultados de teste
+      - name: List files
+        run: |
+          ls -R Apple-Pie
+
       # Passo 4: Instalar SwiftLint
       - name: Install SwiftLint
         run: |
@@ -58,8 +63,4 @@ jobs:
         run: |
           echo "Verifique os logs de saída para resultados detalhados de testes."
 
-      # Passo 9: Exibir resultados de teste
-      - name: List files
-        run: |
-          ls -R Apple-Pie
 

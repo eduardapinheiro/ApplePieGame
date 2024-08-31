@@ -1,34 +1,5 @@
-# Arquivo de configuração do SwiftLint
-
-# Diretórios e arquivos que devem ser analisados
-included:
-  - Source
-  - Tests
-
-# Diretórios e arquivos que devem ser excluídos da análise
-excluded:
-  - Pods
-  - Carthage
-  - Scripts
-  - Generated
-
-# Configuração das regras
-opt_in_rules:
-  - empty_count
-  - fallback_color_literal
-  - force_unwrapping
-  - implicit_return
+disabled_rules: # desative as regras que você não deseja usar
   - line_length
 
-# Regras que devem ser desativadas ou que têm configurações específicas
-#disabled_rules:
-#  - line_length
-
-# Configurações específicas para regras ativadas
-line_length:
-  warning: 120
-  error: 150
-
-# Configurações adicionais
-warning_threshold: 50
-error_threshold: 100
+opt_in_rules: # ou ative as regras que você deseja usar
+  - empty_count

@@ -60,3 +60,8 @@ jobs:
         run: |
           echo "Verifique os logs de saída para resultados detalhados de testes."
 
+      # Passo 9: Exibir resultados de teste
+      - name: List files
+        run: |
+          ls -R /Users/eduardapinheiro/Documents/Apple-Pie
+

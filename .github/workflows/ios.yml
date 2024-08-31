@@ -24,7 +24,7 @@ jobs:
         with:
           xcode-version: '15.4' # Altere conforme a versão necessária para o seu projeto
 
-      Passo 3: Executar o SwiftLint para verificar o código
+      # Passo 3: Executar o SwiftLint para verificar o código
       - name: Install SwiftLint
         run: |
          brew install swiftlint

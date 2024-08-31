@@ -18,29 +18,13 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
-      # Passo 2: Configurar Ruby para CocoaPods
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '2.7'
-
-      # Passo 3: Instalar dependências do CocoaPods
-      - name: Install CocoaPods dependencies
-        run: |
-          pod install
-
-      # Passo 4: Instalar SwiftLint
-      - name: Install SwiftLint
-        run: |
-          brew install swiftlint
-          
-      # Passo 5: Executar o SwiftLint para verificar o código
+      # Passo 4: Executar o SwiftLint para verificar o código
       - name: Lint the code
         run: |
           cd "Apple Pie"
           swiftlint
 
-      # Passo 6: Configurar a versão do Xcode
+      # Passo 5: Configurar a versão do Xcode
       - name: Set up Xcode
         uses: maxim-lobanov/setup-xcode@v1
         with:

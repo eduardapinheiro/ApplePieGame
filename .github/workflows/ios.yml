@@ -37,7 +37,7 @@ jobs:
       # Passo 5: Executar o SwiftLint para verificar o código
       - name: Lint the code
         run: |
-          cd Apple-Pie/Apple-Pie
+          cd "Apple Pie"
           swiftlint
 
       # Passo 6: Configurar a versão do Xcode

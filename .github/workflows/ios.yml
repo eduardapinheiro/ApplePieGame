@@ -29,11 +29,6 @@ jobs:
         run: |
           pod install
 
-      # Passo 9: Exibir resultados de teste
-      - name: List files
-        run: |
-          ls -R Apple-Pie
-
       # Passo 4: Instalar SwiftLint
       - name: Install SwiftLint
         run: |
@@ -41,7 +36,9 @@ jobs:
           
       # Passo 5: Executar o SwiftLint para verificar o código
       - name: Lint the code
-        run: swiftlint
+        run: |
+          cd Apple Pie
+          swiftlint
 
       # Passo 6: Configurar a versão do Xcode
       - name: Set up Xcode

@@ -29,6 +29,7 @@ jobs:
         run: |
          brew install swiftlint
       - name: Run SwiftLint
+         cd "Apple Pie"
         run: swiftlint
 
       # Passo 4: Realizar o build e executar testes unitários

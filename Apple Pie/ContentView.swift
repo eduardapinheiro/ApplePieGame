@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             // Exibição da árvore com frutas restantes
-            Image("Tree\(game.incorrectGuesses)")
+          Image("Tree\(game.maxGuesses - game.incorrectGuesses)")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding()
@@ -74,7 +74,6 @@ struct LetterButtonsView: View {
     }
 }
 
-
 class ApplePieGame: ObservableObject {
     @Published var wordToGuess = "MANAUS"
     @Published var incorrectGuesses = 0
@@ -100,13 +99,8 @@ class ApplePieGame: ObservableObject {
     func makeGuess(_ letter: String) {
         // Lógica para adivinhar uma letra
         if wordToGuess.contains(letter) {
-            guessedLetters.append(letter)
         } else {
             incorrectGuesses += 1
         }
     }
 }
-
-
-
-

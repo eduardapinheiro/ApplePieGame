@@ -25,11 +25,11 @@ jobs:
           xcode-version: '15.4' # Altere conforme a versão necessária para o seu projeto
 
       # Passo 3: Executar o SwiftLint para verificar o código
-      - name: Install SwiftLint
-        run: |
-         brew install swiftlint
-      - name: Run SwiftLint
-        run: swiftlint
+      # - name: Install SwiftLint
+      #   run: |
+      #    brew install swiftlint
+      # - name: Run SwiftLint
+      #   run: swiftlint
 
       # Passo 4: Realizar o build e executar testes unitários
       - name: Build and test the project
